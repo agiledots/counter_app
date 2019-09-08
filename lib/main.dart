@@ -1,3 +1,5 @@
+import 'package:counter_app/views/FirstRoute.dart';
+import 'package:counter_app/views/MyWidget.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -20,7 +22,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Counter Demo Home Page'),
+//      home: MyHomePage(title: 'Counter Demo Home Page'),
+      home: FirstRoute(),
     );
   }
 }
